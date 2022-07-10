@@ -12,6 +12,13 @@ resource "github_repository" "terraform-github" {
   visibility = "public" # or private
 }
 
+resource "github_repository" "LessonMonitor" {
+  name        = "LessonMonitor"
+  description = "ASP.NET Core Web API project for improving my skills"
+
+  visibility = "public" # or private
+}
+
 /*
 resource "github_repository" "terraform-github-repo-2" {
   name        = "test-repo-2"
